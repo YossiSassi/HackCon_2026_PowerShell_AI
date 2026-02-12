@@ -31,9 +31,18 @@ $results = Ask-ChatGPT -prompt $prompt -MaxTokens 100000
 $Results.choices[0].text # | clip
 ```
 <br>
+
 2. Windows Memory Threat Analysis - Comprehensive memory threat analysis for process memory regions. Scan process(es) for suspicious patterns (protection+hex/strings), map memory regions to threads; then analyze for threats & produce a detailed report:<br>
 https://github.com/YossiSassi/WindowsMemoryThreatAnalysis
+<br>
 
-<br><br>
-3. Other code snippets used throughout the presentation can be seen in the slides:
+3. PowerGuard Cloud - an open-source, security monitoring solution designed for Entra ID-joined environments. It fills a critical detection gap by providing immutable, cloud-based analysis of PowerShell activity-independent of local EDR agents:<br>
+https://github.com/TenRoot/PowerGuard
+<br>
+
+4. PSAI - PowerShell AI module. Think ChatGPT meets PowerShell - Includes Autonomous Agents:<br>
+https://github.com/dfinke/PSAI
+<br>
+
+5. Other code snippets used throughout the presentation can be seen in the slides:
 https://github.com/YossiSassi/HackCon_2026_PowerShell_AI/blob/main/presentation_hackcon2026_powershell_ai.pdf
