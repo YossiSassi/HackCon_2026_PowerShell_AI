@@ -44,5 +44,9 @@ https://github.com/TenRoot/PowerGuard
 https://github.com/dfinke/PSAI
 <br>
 
-5. Other code snippets used throughout the presentation can be seen in the slides:
+5. AI implementation plan:<br>
+[Example AI implementation plan](./AI%20Implementation%20Plan.md)
+<br>
+
+6. Other code snippets used throughout the presentation can be seen in the slides:
 https://github.com/YossiSassi/HackCon_2026_PowerShell_AI/blob/main/presentation_hackcon2026_powershell_ai.pdf
