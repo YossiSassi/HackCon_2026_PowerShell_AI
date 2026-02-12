@@ -44,7 +44,7 @@ https://github.com/TenRoot/PowerGuard
 https://github.com/dfinke/PSAI
 <br>
 
-5. Example of AI implementation plan:<br>
+5. AI implementation plan:<br>
 [Example AI implementation plan](./AI%20Implementation%20Plan.md)
 <br>
 
