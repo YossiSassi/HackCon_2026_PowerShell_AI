@@ -2,7 +2,7 @@
 This repository includes the Presentation slides &amp; tools from HackCon 2026 talk -<br>
 <b>_'Automating Securely with AI - Tips &amp; Insights for PowerShell Professionals'._</b><br>
 ### Scripts/tools used in this talk: ###
-1. Simple function calling ChatGPT directly from PowerShell using REST API:<br>
+1. Simple function calling gpt directly from PowerShell using REST API:<br>
 ```
 # First, get API key - e.g. https://platform.openai.com/settings/organization/api-keys, or https://platform.openai.com/account/api-keys
 
