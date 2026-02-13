@@ -9,7 +9,7 @@ This repository includes the Presentation slides &amp; tools from HackCon 2026 t
 # then save it into an environment variable
 $env:OPENAI_API_KEY = 'sk...2CyFz2'
 
-function Ask-ChatGPT ([string]$prompt, [int]$MaxTokens) {
+function Ask-GPT ([string]$prompt, [int]$MaxTokens) {
 $apiKey = $env:OPENAI_API_KEY
 $headers = @{
     "Content-Type" = "application/json"
@@ -27,7 +27,7 @@ Invoke-RestMethod -Uri $uri -Method POST -Headers $headers -Body $body
 }
 
 # example
-$results = Ask-ChatGPT -prompt $prompt -MaxTokens 100000
+$results = Ask-GPT -prompt $prompt -MaxTokens 100000
 $Results.choices[0].text # | clip
 ```
 <br>
